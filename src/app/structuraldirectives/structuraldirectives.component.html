@@ -1,0 +1,11 @@
+<p>structuraldirectives works!</p>
+<p *ngFor="let color of colors" >{{color}}</p>
+<select name="fruits" id="" title="fruits" [(ngModel)]="colorName">
+    <option *ngFor="let fruit of fruits">{{fruit}}</option>
+</select>
+<h1 *ngFor="let product of products">The {{product.name}} price is {{product.price}}</h1>
+<input type="number" name="" placeholder="enter any number"  [(ngModel)]="num">
+<h1 *ngIf="num>0">Positive</h1>
+<h1 *ngIf="num<0">Negative</h1>
+<h1 *ngIf="num==0">Zero</h1>
+<p>{{colorName}}</p>

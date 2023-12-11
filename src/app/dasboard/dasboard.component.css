@@ -1,0 +1,29 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(35, 35, 34);
+    color: aliceblue;
+    
+}
+
+.right{
+    width: 75%;
+    padding: 20px;
+    background-color: aqua;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(255, 0, 55);
+    color: white;
+    border: 0px;
+    
+}
